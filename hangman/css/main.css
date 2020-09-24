@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+.root{
+    margin: auto;
+    position: absolute;
+    left: 15%;
+}
+
+.game{
+    margin-top: 10%;
+    border: 2px solid red;
+    align-items: center;
+  justify-content: center;
+}
+
+.display{
+   border: 2px dotted green;
+   font-size: 6vw;
+   padding: 2vh;
+   background-color: #959ca6;
+   color: black;
+   font-family: 'Special Elite', cursive;
+
+}
+
+.display span{
+    padding-right: 3vw;
+}
+
+.keypad{
+    border: 2px solid pink;
+    margin: 10px;
+    max-width: 50vw;
+    text-align: center;
+}
+
+.keypad .letter{
+    border: 1px solid grey;
+    background-color: white;
+    padding: 0.3vw 0.9vw;
+    font-size: 3vh;
+    font-family: 'Special Elite';
+    transition: 0.4s;
+}
+
+.keypad .letter:not(.pressed):hover{
+    background-color: #ffffaa;
+    padding: 0.5vw 1.1vw;
+    transition: 0.4s;
+}
+
+
+.keypad .pressed{
+    border: 1px solid grey;
+    background-color: #ffffaa;
+    padding: 0.5vw 0.9vw;
+    font-size: 3vh;
+    font-family: 'Special Elite';
+    opacity: 0.6;
+}
