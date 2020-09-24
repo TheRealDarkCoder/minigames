@@ -2,6 +2,10 @@
 
 ---
 
+Currently Hosted at [http://testserver2.darkcoder.xyz/](http://testserver2.darkcoder.xyz/)
+
+---
+
 The repository contains a collection of maintained browser based minigames which can be implemented in other projects. The sub projects are created with *PHP* as backend, and tries to use modern *HTML5* APIs. Designs are not exactly emphasized and room for improvement/customization is kept. Front end *JS* mostly uses *AJAX* calls to interact with the backend game engines.
 
 
