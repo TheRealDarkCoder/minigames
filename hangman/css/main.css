@@ -32,15 +32,18 @@
     margin: 10px;
     max-width: 50vw;
     text-align: center;
+    display: flex;  
+    flex-wrap: wrap;
 }
 
-.keypad .letter{
+.keypad .letter {
     border: 1px solid grey;
     background-color: white;
     padding: 0.3vw 0.9vw;
     font-size: 3vh;
     font-family: 'Special Elite';
     transition: 0.4s;
+    margin: 0.5vw;
 }
 
 .keypad .letter:not(.pressed):hover{
