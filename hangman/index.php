@@ -31,35 +31,9 @@ session_start();
     <div class="root">
         <div class="game d-inline-flex justify-content-center align-middle flex-wrap flex-column">
             <div class="display"></div>
-            <div class="keypad align-content-center">
-                <span onclick='javascript:pressKey(this)' class="letter" data-letter="A">A</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                <span onclick='javascript:pressKey(this)' class="letter" data-letter="B">B</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                <span onclick='javascript:pressKey(this)' class="letter" data-letter="C">C</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                <span onclick='javascript:pressKey(this)' class="letter" data-letter="D">D</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                <span onclick='javascript:pressKey(this)' class="letter" data-letter="E">E</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                <span onclick='javascript:pressKey(this)' class="letter" data-letter="F">F</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                <span onclick='javascript:pressKey(this)' class="letter" data-letter="G">G</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                <span onclick='javascript:pressKey(this)' class="letter" data-letter="H">H</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                <span onclick='javascript:pressKey(this)' class="letter" data-letter="I">I</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                <span onclick='javascript:pressKey(this)' class="letter" data-letter="J">J</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                <span onclick='javascript:pressKey(this)' class="letter" data-letter="K">K</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                <span onclick='javascript:pressKey(this)' class="letter" data-letter="L">L</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                <span onclick='javascript:pressKey(this)' class="letter" data-letter="M">M</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                <span onclick='javascript:pressKey(this)' class="letter" data-letter="N">N</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                <span onclick='javascript:pressKey(this)' class="letter" data-letter="O">O</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                <span onclick='javascript:pressKey(this)' class="letter" data-letter="P">P</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                <span onclick='javascript:pressKey(this)' class="letter" data-letter="Q">Q</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                <span onclick='javascript:pressKey(this)' class="letter" data-letter="R">R</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                <span onclick='javascript:pressKey(this)' class="letter" data-letter="S">S</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                <span onclick='javascript:pressKey(this)' class="letter" data-letter="T">T</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                <span onclick='javascript:pressKey(this)' class="letter" data-letter="U">U</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                <span onclick='javascript:pressKey(this)' class="letter" data-letter="V">V</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                <span onclick='javascript:pressKey(this)' class="letter" data-letter="W">W</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                <span onclick='javascript:pressKey(this)' class="letter" data-letter="X">X</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                <span onclick='javascript:pressKey(this)' class="letter" data-letter="Y">Y</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                <span onclick='javascript:pressKey(this)' class="letter" data-letter="Z">Z</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            </div>
 
+            <div class="keypad align-content-center"></div>
+            
             <div class="info">
                 <ul id="info-ul">
                     <li>Chances left: <span id="turns"></span></li>
