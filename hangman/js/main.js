@@ -22,16 +22,16 @@ $("#turns").html(gamedata.turns); //Set turns remaining
 function pressKey(d){
 
     /*
-        Run this function onclick of a keypad letter.
+        Run this function on click of a keypad letter.
     */
 
     letter = d.getAttribute("data-letter"); //Get the data-letter value
 
     /*
-        Send the letter via get parameter ?check= to the backend and get JSON data of position where letter is present and remaining turns.
+        Send the letter via GET parameter ?check= to the backend and get JSON data of position where letter is present and remaining turns.
     */
     var check = JSON.parse($.ajax({
-        url:  'backend/game.php?check='+letter,
+        url:  'backend/game.php?check=' + letter,
         async: false,
         datatype: 'json'
     }).responseText);
