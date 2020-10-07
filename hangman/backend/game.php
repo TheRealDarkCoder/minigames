@@ -1,15 +1,17 @@
 <?php
 session_start(); //Start session for user
-$words = [  "balloon", 
-            "rifle", 
-            "elephant",
-            "internet",
-            "python",
-            "board",
-            "github",
-            "bangladesh"    
-        ]; //Word List
 
+$cURLConnection = curl_init(); //Initialize a new session and return a cURL handle.
+
+curl_setopt($cURLConnection, CURLOPT_URL, 'https://random-word-api.herokuapp.com/word?number=1'); //Pass URL as a parameter. This is the target server website address.
+
+curl_setopt($cURLConnection, CURLOPT_RETURNTRANSFER, 1); //Return the transfer as a string of the return value of curl_exec() instead of outputting it directly. 
+
+$wordList = curl_exec($cURLConnection); //Execute the predefined CURL session. 
+
+curl_close($cURLConnection); //Close curl resource to free up system resources.
+
+$words = json_decode($wordList); //Convert it to PHP array from JSON format.
 
 
 if(!isset($_GET['check'])){ //Check if a get variable is set.\
