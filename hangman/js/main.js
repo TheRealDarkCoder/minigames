@@ -22,7 +22,7 @@ $("#turns").html(gamedata.turns); //Set turns remaining
 function pressKey(d){
 
     /*
-        Run this function on click of a keypad letter.
+        Run this function onclick of a keypad letter.
     */
 
     letter = d.getAttribute("data-letter"); //Get the data-letter value
