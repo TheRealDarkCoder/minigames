@@ -7,7 +7,15 @@ $words = [  "balloon",
             "python",
             "board",
             "github",
-            "bangladesh"    
+            "bangladesh",
+            "regiment",
+            "virus",
+            "needle",
+            "flower",
+            "mouse",
+            "rabbit",
+            "jazz",
+            "pharao"    
         ]; //Word List
 
 
