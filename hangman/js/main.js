@@ -51,10 +51,10 @@ function pressKey(){
     letter = this.getAttribute("data-letter"); //Get the data-letter value
 
     /*
-        Send the letter via get parameter ?check= to the backend and get JSON data of position where letter is present and remaining turns.
+        Send the letter via GET parameter ?check= to the backend and get JSON data of position where letter is present and remaining turns.
     */
     var check = JSON.parse($.ajax({
-        url:  'backend/game.php?check='+letter,
+        url:  'backend/game.php?check=' + letter,
         async: false,
         datatype: 'json'
     }).responseText);
